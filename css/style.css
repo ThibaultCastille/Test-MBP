@@ -1,0 +1,38 @@
+body {
+    background: #ccc;
+    color: #111;
+    font-family: "Arial";
+    font-size: 13px;
+}
+/* Ajout d'un ";" après font-family. */
+
+#menu {
+    margin: 10px 15px;
+    align-content: right;
+}
+/* Ajout d'un retour à la ligne après margin et modification de "content" en "align-content". */
+
+ul, li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul, li, a {
+    padding: 5px;
+    color: #555;
+}
+
+/* Ajout des virgules après chaque élément, sans cela, les styles ne sont pas pris en compte. */
+
+#bold {
+    font-weight: bold;
+}
+
+#contact {
+    float:left;
+    margin-top:20px;
+    color:#999;
+    font-size:9px;
+    font-style:underline;
+}
+/* Déplacement du style du "contact" dans le "style.css". */

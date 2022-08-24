@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Changement de l'élément définissant la langue. lang="fra" est devenu lang="fr". -->
+<head>
+    <meta charset="utf-8" />
+    <!-- Par defaut, le meta charset est la première ligne dans le header. De plus, nous avons modifier l'élément du charset en "utf-8". -->
+    <title>Wengo, le conseil de Professionnels en ligne par téléphone et email</title>
+    <!-- Title trop long, il serait intéréssant de mettre un titre plus court pour tout afficher. -->
+
+    <meta name="description" content="Des milliers de professionnels Wengo disponibles 7/7j, dans tous les domaines. Les conseillers répondent à vos questions et sont évalués par les clients." />
+    <!-- Norme Google - Si description trop longue (ou trop courte), le référencement ne sera pas optimale. Le mieux est entre 50 et 160 caractères. La description actuelle est de 131, ce qui est parfait. -->
+    <meta name="keywords" content="professionnel,conseiller,wengo,astrologie,psychologie" />
+    <!-- Il est important de mettre des keywords, pour mieux référencer son site internet sur les navigateurs tel que google (SEO) -->
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- Pour une question de performance, il est souvent plus intéressant de mettre une image ".ico" comme icône. -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- l'élément rel="stylesheet" à était changé de place pour une question de norme. Même si cela marche peu importe son placement, la norme HTML5 le place en premier. -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body>
+
+    <div id="page">
+    <!-- Il n'y a pas d'id "page" dans le css. -->
+        <div id="logo">
+        <!-- Il n'y a pas d'id "logo" dans le css.-->
+        <a href="#">
+                 <!-- Le "hyperlink" est connecté à rien. Il n'est donc pas vraiment utile dans ce cas précis. Tout les href="#" qui suivrons ne sont pas utilisables. -->
+                <img src="img/logo.jpg" alt="Wengo Logo" />
+                <!-- Sur le Test-MBP.html initial, il y avait deux références à deux dossiers images ("img/ & images/"). J'ai donc modifié les chemins pour un seul et unique dossier "img/" -->
+            </a>
+        </div>
+
+        <div id="menu">
+            <p>
+                <a href="#" title="">Login</a>
+                |
+                <b>
+                    <a href="#" id="bold">S'enregistrer</a>
+                    <!-- Il y avait un "title" vide, et donc inutile. Je l'ai enlevé. -->
+                </b>
+                <br />
+            </p>
+            <!-- L'indentation à était modifié, et nous avons remis le bon placement de la balise. -->
+            <ul>
+                <li><a href="#" id="bold">Juridique</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Informatique</a></li>
+                <li><a href="#">Psychologie</a></li>
+                <li><a href="#">Bien-être</a></li>
+                <li><a href="#">Astro</a></li>
+            </ul>
+            <!-- Les balises <li> doivent être comprises dans une balise <ul>. -->
+        </div>
+
+        <div class="how_content">
+            <h1>Comment ça marche ?</h1>
+            <!-- Déplacement de <h1> dans le div. -->
+
+            <h2>Trouvez votre Expert</h2>
+            <p>Tous nos voyants, psychologues, avocats et autres experts sont qualifiés et leurs profils vérifiés.</p>
+
+            <h2>Demandez une consultation</h2>
+            <p>Consultez par téléphone, chat ou e-mail - quand vous voulez, où vous voulez</p>
+
+            <br />
+
+            <h2>Connectez-vous directement</h2>
+            <p>En quelques minutes, l'expert sélectionné vous guidera en vous proposant les outils dont vous avez besoin pour vous aider à vous sentir mieux.</p>
+
+            <h2>Vous êtes un expert ?</h2>
+            <p>Rejoignez notre brillante équipe d'experts et offrez le meilleur des services de conseils. </p>
+            <!-- Fermeture de la balise <p> ajoutée pour clore le paragraphe. -->
+
+            <!-- <div> non pertinent avec l'actuel contenu, donc retrait. -->
+            <a href="/expert/registration.html">Devenez un expert </a>
+            <!-- Ajout de .html au href, car il n'y a pas de système de route mise en place. -->
+
+            <h2>Lorem ipsum dolore sit amet</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque : </p>
+            <br />
+            <ul>
+                <li>Lorem</li>
+                <li>Ipsum</li>
+                <li>Dolore</li>
+                <li>Sit</li>
+            </ul>
+        </div>
+
+        <img src="img/bugz_commentcamarche.jpg" alt="Comment ça marche Logo"/>
+        <!-- Changement de chemin (il y avait 2 dossiers images) et ajout de alt. -->
+
+        <p>
+            <strong>Derniers inscrits :</strong>
+        </p>
+
+        <table border="1" cellspacing="5" cellpadding="5">
+        <!-- Changement de border="0" à "1" pour afficher un tableau. -->
+            <tr>
+                <td>Aujourd'hui</td>
+                <td>Hier</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Total : 20 </td>
+            </tr>
+            <!-- Ajout de la balise <tr>. -->
+        </table>
+</body>
+<footer>
+        <!-- Changement de place du contact dans le footer. -->
+    <div id="contact">
+        <!-- Mise en place du style dans le fichier style.css pour plus de clarté. -->
+        <p>2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris</p>
+        <!-- Ajout de la balise <p> pour contenir le texte. -->
+    </div>
+</footer>
+</html>
